@@ -1,0 +1,36 @@
+.select_box{
+    width: 100%;
+    height: 40px;
+}
+.name_input_1{
+    width: 100%;
+    height: 40px;
+}
+body{
+    padding: 40px;
+    background-color: m;
+}
+#submit_div{
+    width: 150px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+  margin-left: 20px;
+    text-align: center;
+    color:white;
+
+}
+.form{
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+#submit_button{
+    color:white;    
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.record_table{
+    width: 100%;
+}

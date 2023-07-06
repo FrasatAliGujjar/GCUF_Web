@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCUF - FSD</title>
+
+    <!-- Css file link  -->
+    <link rel="stylesheet" href="Login.css">
+
+    <!-- Fav Icon  -->
+    <link rel="Icon" href="pic/fav.png">
+
+    <!-- Bootstrap Links  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Google Fonts Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script:wght@400;600;700&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awosome Icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Header  -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4 header">
+                <img src="pic/logo.png" class="img-fluid" alt="Logo">
+            </div>
+        </div>
+    </div>
+    <!-- Admission Open Titile  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 heading_h3">
+                <p class="h3" id="h3">Admission Fall 2023</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- login Forms -->
+
+    <div class="container login_form_main">
+        <div class="row login_form_main_inner_main_box">
+            <!-- Login form left  -->
+            <div class="col-lg-4 col-md-12 col-sm-12 Login_form_left">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 Login_form_heading">
+                            <i class="fa-solid fa-right-to-bracket"></i>&ensp;Login
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="container">
+                    <!-- item 1  -->
+                    <div class="row">
+                        <div class="col-12 Login_form">
+                            <label class="Login_form_left_lable_1">CNIC / B-Form</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 Login_form">
+                            <!-- <input type="number" id="Login_form_left_input_1"> -->
+                            <input type="number" value="" id="lfli1">
+                        </div>
+                    </div>
+                    <br>
+                    <!-- item 2 -->
+                    <div class="row">
+                        <div class="col-12 Login_form">
+                            <label class="Login_form_left_lable_2">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 Login_form">
+                            <!-- <input type="text" required placeholder="Enter a Strong Password"
+                            id="Login_form_left_input_2"> -->
+                            <input value="" type="password" id="lfli2">
+                        </div>
+                    </div>
+                </div>
+                <!-- message  -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 Login_form_message">
+                            <p>You will be fully responsible for your operation. <br>
+                                Login Issue With Date of Birth ?<br>
+                                Try Now With Password ? Click Here </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- login + Create Admission Account  -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 Login_btn" onclick="login()">
+                            Login
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12 C_addmission-btn" onclick="form()">
+                            Create Admission Account
+                        </div>
+                    </div>
+                    <br>
+                    <!-- <div class="row">
+                        <div class="col-12 " id="login_suc_fail_btn">
+
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Login form right  -->
+            <div class="col-lg-8 col-md-12 col-sm-12  Login_form_right">
+                <iframe id="video" src="https://www.youtube.com/embed/oacFChQsmoQ"
+                    title="STEP BY STEP GUIDELINE HOW TO APPLY FOR BS ADMISSION #GCUF  #GCUF IT #GC UNIVERSITY  #IT SERVICES"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-11">
+                            <marquee>
+                                <p class="message2">Admissions of Intermediate Programms Has Been Closed !</p>
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="Login.js"></script>
+
+</body>
+
+</html>

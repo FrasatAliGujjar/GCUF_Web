@@ -1,0 +1,226 @@
+                                  /* Login Page Css */
+                                  body {
+                                      margin: 0px;
+                                      padding: 0px;
+                                      background-color: rgba(0, 0, 0, 0.3);
+                                  }
+
+                                  /* Header  */
+                                  .header {
+                                      /* border: 2px solid red; */
+                                      margin-top: 30px;
+                                  }
+
+                                  .heading_h3 {
+
+                                      /* border: 2px solid red; */
+                                      text-align: center;
+                                  }
+
+                                  .h3 {
+
+                                      text-align: center;
+                                  }
+
+                                  /* Login Form  */
+
+                                  .login_form_main {
+                                      /* border: 2px solid blue; */
+                                      height: 600px;
+                                      padding: 20px;
+                                  }
+
+                                  .login_form_main_inner_main_box {
+
+                                      padding: 10px;
+                                  }
+
+                                  /* Login_form_left  */
+                                  .Login_form_left {
+
+                                      /* border: 2px solid magenta; */
+                                      padding: 10px;
+                                      /* height: fit-content; */
+                                  }
+
+                                  .Login_form_heading {
+
+                                      font-size: 20px;
+                                      background-color: rgba(215, 209, 209, 0.3);
+                                  }
+
+
+
+
+                                  /* Login_form_right  */
+                                  .Login_form_right {
+
+                                      /* border: 2px solid magenta; */
+                                      padding: 30px;
+                                      /* height: 550px; */
+                                  }
+
+                                  #lfli1 {
+                                      width: 300px;
+                                      height: 40px;
+                                      border-radius: 5px;
+                                      padding-left: 10px;
+                                  }
+
+                                  #lfli2 {
+                                      width: 300px;
+                                      height: 40px;
+                                      border-radius: 5px;
+                                      padding-left: 10px;
+                                  }
+
+                                  /* message  */
+                                  .Login_form_message {
+
+                                      font-size: 14px;
+                                      background-color: white;
+                                      color: green;
+                                  }
+
+                                  .message2 {
+                                      font-size: 14px;
+                                      background-color: white;
+                                      color: red;
+
+                                  }
+
+                                  .Login_btn {
+                                      width: 300px;
+                                      color: white;
+                                      border: 2px solid red;
+                                      border-radius: 5px;
+                                      text-align: center;
+                                      background-color: brown;
+                                  }
+
+                                  .C_addmission-btn {
+                                      width: 300px;
+                                      color: white;
+                                      border: 2px solid blue;
+                                      border-radius: 5px;
+                                      text-align: center;
+                                      background-color: blue;
+                                  }
+
+                                  /* #login_suc_fail_btn {
+                                      width: 350px;
+                                      height: 30px;
+                                      color: black;
+                                      border: 2px solid blue;
+                                      border-radius: 5px;
+                                      text-align: center;
+                                      background-color: blue;
+                                  } */
+
+
+
+                                  #video {
+                                      width: 685px;
+                                      height: 315px;
+
+                                  }
+
+                                  /* ============================================================================ */
+
+                                  @media only screen and (max-width: 1920px) {
+                                      #video {
+                                          width: 685px;
+                                          height: 315px;
+                                      }
+
+                                      .h3 {
+
+                                          text-align: center;
+                                      }
+
+                                  }
+
+                                  @media only screen and (max-width: 1200px) {
+                                      #video {
+                                          width: 685px;
+                                          height: 315px;
+                                      }
+
+                                      .h3 {
+
+                                          text-align: center;
+                                      }
+                                  }
+
+                                  @media only screen and (max-width: 992px) {
+                                      #video {
+                                          width: 660px;
+                                          height: 315px;
+                                      }
+
+
+                                      #h3 {
+
+                                          text-align: center;
+                                          font-size: 20px;
+
+                                      }
+                                  }
+
+                                  @media only screen and (max-width: 768px) {
+                                      #video {
+                                          width: 500px;
+                                          height: 315px;
+                                      }
+
+                                      #h3 {
+
+                                          text-align: center;
+                                          font-size: 20px;
+
+                                      }
+                                  }
+
+                                  @media only screen and (max-width: 535px) {
+                                      #video {
+                                          width: 440px;
+                                          height: 315px;
+                                      }
+
+                                      #h3 {
+
+                                          text-align: center;
+                                          font-size: 20px;
+
+                                      }
+                                  }
+
+
+                                  @media only screen and (max-width: 480px) {
+                                      #video {
+                                          width: 370px;
+                                          height: 315px;
+                                      }
+
+                                      #h3 {
+
+                                          text-align: center;
+                                          font-size: 20px;
+
+                                      }
+                                  }
+
+
+                                  @media only screen and (max-width: 412px) {
+                                      #video {
+                                          width: 300px;
+                                          height: 180px;
+                                      }
+
+                                      #h3 {
+
+                                          text-align: center;
+                                          font-size: 20px;
+
+                                      }
+                                  }
