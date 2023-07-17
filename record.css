@@ -19,6 +19,7 @@
     border: 2px solid white;
     color: white;
     font-size: 15px;
+    /* padding-top: 10px; */
 }
 
 #st_hafiz {
@@ -115,7 +116,7 @@ body {
 .top_div_1_title {
 
     color: maroon;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-size: 13px;
 }
 
@@ -148,8 +149,8 @@ body {
     }
     .top_div_1_title{
 
-        color: white;
-        padding-top: 20px;
+        color: maroon;
+        /* padding-top: 20px; */
         font-size: 13px;
     }
 }
